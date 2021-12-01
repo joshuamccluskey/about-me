@@ -61,5 +61,5 @@ let responseFive = prompt ('Is cheese my favorite food?').toLowerCase();
 
 // Outro statement adressing the user
 
-let outro = alert ('Nice ' + usersName + '! Thanks for taking the time learn a few things about me! You can read more on my About Me page.' );
+let outro = alert ('Nice ' + usersName + '! Thanks for taking the time to learn a few things about me! You can read more on my About Me page.' );
 
