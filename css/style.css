@@ -1,15 +1,38 @@
 * {
-  background-color: chartreuse;
+  background-color: #91D9FA;
 }
 
 h1 {
-  color: blueviolet;
+  color: #5391AD;
   font-size: 3em;
   margin: auto;
   border: coral;
-  background-color: cornflowerblue;
+  background-color: #FAAAB4;
   text-align: center;
-  
+  width: 60%;
+  padding: 20px;
+  margin-top: 30px;
+  font-family: 'Bungee Outline', cursive;
+}
 
 
+img {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  display: block;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+p {
+  color: #5391AD;
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+  margin: auto;
+  border: coral;
+  width: 60%;
+  padding: 20px;
+  margin-top: 80px;
 }
