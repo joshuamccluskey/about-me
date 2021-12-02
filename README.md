@@ -100,3 +100,8 @@ The more I can associate with concepts or techniques before and iterate upon wha
 Thisweek, I learnt some many hot keys that I thought were not  only cool, but I knew from that moment forward that this was what I needed and didn’t know it until that moment. The structure of the class has facilitated those moments of almost like a mixture of self discovery with a directed approach. Those moments are so exciting, it boosts my motivation. The string literal lesson was an impactful lesson. Concanting strings and variables is a long process and can cause errors if you forget a quotation mark or ‘+’. The string literal allows you more freedom to type with a less likelihood you code will break.
 
 I’m excited to see how far I can push myself during various and more complex loop  build outs. The more and more I actually build and get into that mindset, the more likely that way of thinking will become quicker. I need to charge on and keep going. I feel really positive and motivated at the moment. I would say moving forward into future concepts and more complex concepts will boost my confidence and further motivate me to want to learn more. I’m intrinsically motivated to learn more. Let's see how far I can push myself with Loops.
+
+### Navigator & Driver
+
+- Navigator: Joshua McCluskey; Driver: Robb Alexander
+  - 12.02.2021: "Wrapped all questions into their respective functions"
