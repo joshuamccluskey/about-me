@@ -8,7 +8,7 @@ let usersName = prompt ('Hi there! What\'s your name?');
   // console.log('Welcome ' + usersName + '!'); 
   let greeting = alert ('Welcome ' + usersName + '!'); 
 
-//Question 1 
+// // //Question 1 
 let responseOne = prompt ('Am I Badger from Wisconsin?').toLowerCase();
 
   if(responseOne === 'yes' || responseOne === 'y'){
@@ -73,7 +73,7 @@ let correctAnswer = 8;
 for(let i = 3; i > 0; i--){
     while(userNumber < 1 || userNumber > 10){
       userNumber = prompt (`Pick a number between 1-10`)
-    } if (userNumber == correctAnswer){
+    } if (+userNumber === correctAnswer){
       alert (`Correct! Its 8`);
       counter++;
       break;
@@ -82,7 +82,7 @@ for(let i = 3; i > 0; i--){
     } else if (userNumber < correctAnswer){
     userNumber = prompt(`Too Low!`);
     }
-  if (i == 1){
+  if (i === 1){
   alert (`Darn...my favorite number is 8!`);
   }
 }
@@ -90,26 +90,28 @@ for(let i = 3; i > 0; i--){
 //Question 7
 
 let userLang = prompt('What languages do I speak?').toUpperCase();
-let correctAnswerLang = 'FARSI' || 'DARI' || 'ENGLISH' || 'TAGALOG';
+let correctAnswerLang = ['FARSI' , 'DARI' , 'ENGLISH' , 'TAGALOG'];
 
-for(let i = 5; i > 0; i--){
-      if (userLang == correctAnswerLang){
+for(let i = 6; i > 0; i--){
+     if (i == 1){
+      alert (`I speak Tagalog, Dari, Farsi, and English.`);
+    } else if (userLang === correctAnswerLang[0]){
       alert (`Correct! I also speak Dari, Tagalog, and English.`);
       counter++;
       break;
-    } else if (userLang == correctAnswerLang){
+    } else if (userLang === correctAnswerLang[1]){
       alert (`Correct! I also speak Farsi, Tagalog, and English.`);
       counter++;
       break;
-    } else if (userLang == correctAnswerLang){
+    } else if (userLang === correctAnswerLang[2]){
       alert (`Correct! I also speak Dari, Tagalog, and Farsi.`);
       counter++;
       break;
-    } else if (userLang == correctAnswerLang){
+    } else if (userLang === correctAnswerLang[3]){
       alert (`Correct! I also speak Dari, Farsi, and English.`);
       counter++;
       break;
-    } else {
+    } else if (userLang !== correctAnswerLang[0,1,2,3]){
       userLang = prompt('What languages do I speak?').toUpperCase();
     }
 }
