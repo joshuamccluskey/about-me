@@ -112,9 +112,6 @@ for(let i = 5; i > 0; i--){
     } else {
       userLang = prompt('What languages do I speak?').toUpperCase();
     }
-  if (i == 1){
-  alert (`Nice ${usersName}! Thanks for taking the time to learn a few things about me! You can read more on my About Me page. You got  ${counter} / 7`);
-  }
 }
 
 let outro = alert (`Nice ${usersName}! Thanks for taking the time to learn a few things about me! You can read more on my About Me page. You got ${counter} / 7!`);
