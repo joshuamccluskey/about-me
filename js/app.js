@@ -90,22 +90,22 @@ for(let i = 3; i > 0; i--){
 //Question 7
 
 let userLang = prompt('What languages do I speak?').toUpperCase();
-let correctAnswerLang = 'Farsi' || 'Dari' || 'English' || 'Tagalog';
+let correctAnswerLang = 'FARSI' || 'DARI' || 'ENGLISH' || 'TAGALOG';
 
 for(let i = 5; i > 0; i--){
-      if (userLang == 'FARSI'){
+      if (userLang == correctAnswerLang){
       alert (`Correct! I also speak Dari, Tagalog, and English.`);
       counter++;
       break;
-    } else if (userLang == 'DARI'){
+    } else if (userLang == correctAnswerLang){
       alert (`Correct! I also speak Farsi, Tagalog, and English.`);
       counter++;
       break;
-    } else if (userLang == 'ENGLISH'){
+    } else if (userLang == correctAnswerLang){
       alert (`Correct! I also speak Dari, Tagalog, and Farsi.`);
       counter++;
       break;
-    } else if (userLang == 'TAGALOG'){
+    } else if (userLang == correctAnswerLang){
       alert (`Correct! I also speak Dari, Farsi, and English.`);
       counter++;
       break;
