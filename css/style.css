@@ -15,6 +15,11 @@ h1 {
   font-family: 'Bungee Outline', cursive;
 }
 
+h2 {
+  padding: 20px;
+  margin: auto;
+  /* margin-top: 80px; */
+}
 
 img {
   width: 300px;
@@ -32,7 +37,6 @@ main {
 }
 p {
   margin: auto;
-  border: coral;
   width: 60%;
   padding: 20px;
   margin-top: 80px;
