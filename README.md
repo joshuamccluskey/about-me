@@ -178,4 +178,4 @@ Deploy your app to GitHub Pages and add any additional final touches to your CSS
 
 ### Reflections and Comments
 
-This was prpobaby the most visually appealing website I've been able to build so far. I hope to exanp more on this in the **future**.
+This was prpobaby the most visually appealing website I've been able to build so far. I hope to exanp more on this in the **future**. Most of my focus in this project was on JS side. I found I spent way more time on CSS than I normally would have.
